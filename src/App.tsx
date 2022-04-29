@@ -3,9 +3,9 @@ import { Tweet } from "./componentes/Tweet";
 function App() {
   return (
     <div>
-      <Tweet />
-      <Tweet />
-      <Tweet />
+      <Tweet text="Tweet 1" />
+      <Tweet text="Tweet 2" />
+      <Tweet text="Tweet 3" />
     </div>
   );
 }
